@@ -29,13 +29,13 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 45px;
   color: white;
 }
 
 h2 {
   font-size: 27px;
-  text-decoration: underline;
+  text-transform: uppercase;
   margin-bottom: 30px;
 }
 
@@ -44,16 +44,22 @@ h3 {
 }
 
 h1, h2 {
-  text-align: center;
   font-family: century-gothic, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top: 0;
 }
 
 p {
     font-size: 17px;
     line-height: 1.5;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #80ADA0;
 }
 
 .wrap {
@@ -93,11 +99,12 @@ nav a {
 }
 
 .nav-btn {
+  font-size: 15px;
   text-decoration: none;
   display: inline-block;
-  min-width: 170px;
-  padding: 10px 30px;
-  margin: 15px 0;
+  min-width: 120px;
+  padding: 5px 0;
+  margin: 15px 5px;
   border: 1px #5893d4 solid;
   text-transform: uppercase;
   font-weight: bold;
@@ -120,7 +127,7 @@ nav a:active {
   float: right;
   font-size: 20px;
   text-decoration: none;
-  margin: 25px 20px 0 0;
+  margin: 20px 20px 0 0;
 }
 
 .sm-icon {
@@ -128,10 +135,15 @@ nav a:active {
   padding: 10px;
 }
 
+.social-media a:hover {
+  color: red;
+}
+
+
 
 
 /*----------------------------
-Header
+Header (+general footer)
 ----------------------------*/
 
 header {
@@ -153,24 +165,11 @@ header h1, header h2 {
 }
 
 header h1 {
-    margin: 65px 0 10px 0;
+    margin: 110px 0 10px 0;
 }
 
 header p {
   clear: both;
-}
-
-footer {
-  text-align: center;
-  clear: both;
-}
-
-footer p {
-  margin-bottom: 0;
-}
-
-footer h2 {
-  margin-top: 30px;
 }
 
 .profile-pic {
@@ -178,33 +177,15 @@ footer h2 {
   border: 5px solid white;
   border-radius: 70px;
   float: left;
-  margin: 0 50px 50px 0;
-}
-
-.button a {
-  font-size: 20px;
-  background: #5F5566;
-  padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 40px;
-  display: inline-block;
-  text-decoration: none;
+  margin: 60px 50px 50px 0;
 }
 
 a {
-  color: #8AEA92;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  color: #80ADA0;
+  color: #ceddef;
 }
 
 .download-button {
-  background: #5F5566;
+  background: #1f3c88;
   padding: 5px 10px;
   text-decoration: none;
   position: absolute;
@@ -217,3 +198,24 @@ a:active {
 /*----------------------------
 Footer
 ----------------------------*/
+
+footer {
+  text-align: center;
+  clear: both;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 50px 0 0 0;
+}
+
+footer h2 {
+  margin: 20px 0 50px 0;
+}
+
+.footer-btn a{
+  font-size: 25px;
+  padding: 5px 10px;
+  margin: 0 20px;
+  text-align: center;
+}
