@@ -1,0 +1,219 @@
+/* colors
+#000000 = black
+#33202A = brownish grey
+#5F5566 = middle grey
+#ceddef = lightest blue/white
+#5893d4 = light blue
+#1f3c88 = blue
+#070d59 = navy
+#664C59 = nav bar grey
+*/
+
+
+/*----------------------------
+Glabal styles
+----------------------------*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: pragmatica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+}
+
+h2 {
+  font-size: 27px;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: century-gothic, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 0;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.wrap {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+
+
+/*----------------------------
+Nav Bar
+----------------------------*/
+
+.nav-bar {
+  background: linear-gradient(#ceddef, white);
+}
+
+.nav-fade {
+  background: linear-gradient(rgba(40, 30, 36, 1), rgba(40, 30, 36, 0));
+  position: fixed;
+  top: 50px;
+  bottom: 85%;
+  width: 100%;
+}
+
+nav {
+  text-align: center;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+}
+
+nav a {
+  color: #070d59;
+}
+
+.nav-btn {
+  text-decoration: none;
+  display: inline-block;
+  min-width: 170px;
+  padding: 10px 30px;
+  margin: 15px 0;
+  border: 1px #5893d4 solid;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav-btn-general {
+  display: inline-block;
+}
+
+nav a:active {
+  color: #5893d4;
+}
+
+.nav-btn-general a:hover {
+  background: #ceddef;
+  text-decoration: underline;
+}
+
+.social-media {
+  float: right;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 25px 20px 0 0;
+}
+
+.sm-icon {
+  min-width: 12px;
+  padding: 10px;
+}
+
+
+
+/*----------------------------
+Header
+----------------------------*/
+
+header {
+  padding-top: 65px;
+  position: relative;
+}
+
+header, footer {
+  background: #070d59;
+  color: #ceddef;
+}
+
+header h2, footer h2 {
+  color: white;
+}
+
+header h1, header h2 {
+  text-align: left;
+}
+
+header h1 {
+    margin: 65px 0 10px 0;
+}
+
+header p {
+  clear: both;
+}
+
+footer {
+  text-align: center;
+  clear: both;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer h2 {
+  margin-top: 30px;
+}
+
+.profile-pic {
+  width: 220px;
+  border: 5px solid white;
+  border-radius: 70px;
+  float: left;
+  margin: 0 50px 50px 0;
+}
+
+.button a {
+  font-size: 20px;
+  background: #5F5566;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a {
+  color: #8AEA92;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #80ADA0;
+}
+
+.download-button {
+  background: #5F5566;
+  padding: 5px 10px;
+  text-decoration: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+
+
+/*----------------------------
+Footer
+----------------------------*/
