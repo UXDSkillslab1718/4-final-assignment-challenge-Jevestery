@@ -97,7 +97,7 @@ Nav Bar
 }
 
 .nav-fade {
-  background: linear-gradient(rgba(40, 30, 36, 1), rgba(40, 30, 36, 0));
+  background: linear-gradient(rgba(40, 30, 36, 0.7), rgba(40, 30, 36, 0));
   position: fixed;
   top: 50px;
   bottom: 85%;
