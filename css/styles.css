@@ -44,7 +44,7 @@ h3 {
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
-  margin: 60px 0 10px 0;
+  margin: 70px 0 10px 0;
 }
 
 h1, h2 {
@@ -84,6 +84,10 @@ a:active {
   max-width: 750px;
   margin: 0 auto;
   padding: 30px;
+}
+
+.wrap p {
+  margin-bottom: 30px;
 }
 
 
@@ -155,6 +159,10 @@ nav a:active {
 
 .social-media a:hover {
   color: red;
+}
+
+.social-media a:active{
+  color: #80ADA0;
 }
 
 
@@ -231,8 +239,43 @@ footer h2 {
 }
 
 .footer-btn a{
-  font-size: 25px;
+  font-size: 30px;
   padding: 5px 10px;
   margin: 0 20px;
   text-align: center;
+}
+
+.footer-btn a:hover{
+  color: white;
+}
+
+.footer-btn a:active{
+  color: #80ADA0;
+}
+
+
+
+/*----------------------------
+Projects
+----------------------------*/
+
+.DCproject_btn {
+  text-decoration: none;
+  color: #5893d4;
+  background-color: #DEE6FE;
+  padding: 7px 20px;
+  border: 1px solid #5893d4;
+  border-radius: 30px;
+}
+
+.DCproject_btn:hover {
+  background-color: #DAF5F8;
+}
+
+.DCproject_btn:active {
+  background-color: #ceddef;
+}
+
+.DC-btn-arw {
+  margin-left: 10px;
 }
