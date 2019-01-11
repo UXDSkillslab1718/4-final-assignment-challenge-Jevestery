@@ -276,6 +276,20 @@ Projects
   background-color: #ceddef;
 }
 
-.DC-btn-arw {
+.DC-btn-arw-right {
   margin-left: 10px;
+}
+
+.DC-btn-arw-left {
+  margin-right: 10px;
+}
+
+
+
+/*----------------------------
+Projects DC
+----------------------------*/
+
+.spacing {
+  padding-top: 30px;
 }
