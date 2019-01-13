@@ -290,6 +290,23 @@ Projects
 Projects DC
 ----------------------------*/
 
-.spacing {
+.h2-spacing {
   padding-top: 30px;
+}
+
+.quote {
+  padding: 0 30px;
+  text-align: center;
+}
+
+.gallery-pic {
+  max-width: 700px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.gallery-title {
+  margin-top: 5px;
+  text-align: center;
 }
