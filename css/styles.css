@@ -310,7 +310,7 @@ Projects DC
   margin: 20px auto 0 auto;
 }
 
-.gallery-title {
+figcaption {
   margin-top: 5px;
   text-align: center;
   font-style: italic;
