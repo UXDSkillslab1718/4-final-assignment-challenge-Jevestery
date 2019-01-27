@@ -10,6 +10,7 @@
 */
 
 
+
 /*----------------------------
 Glabal styles
 ----------------------------*/
@@ -168,7 +169,7 @@ nav a:active {
 
 
 /*----------------------------
-Header (+general footer)
+Header (+generals for footer)
 ----------------------------*/
 
 header {
@@ -261,6 +262,7 @@ Projects
 
 .DCproject_btn {
   text-decoration: none;
+  font-style: italic;
   color: #5893d4;
   background-color: #DEE6FE;
   padding: 7px 20px;
@@ -297,6 +299,7 @@ Projects DC
 .quote {
   padding: 0 30px;
   text-align: center;
+  font-style: italic;
 }
 
 .gallery-pic {
@@ -310,7 +313,9 @@ Projects DC
 .gallery-title {
   margin-top: 5px;
   text-align: center;
+  font-style: italic;
 }
+
 
 
 /*----------------------------
